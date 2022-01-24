@@ -1,0 +1,45 @@
+.container{
+    max-width: 100%;
+    min-height: calc(100vh - var(--navbar-height));
+    position: relative;
+    
+    background: url('..\..\..\assets\media\img\main_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.container::before{
+    content: "";
+    background: rgba(16, 110, 234, .8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.info__profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 5rem;
+}
+.profile__img{
+    width: 5rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.profile__picture{
+    color: #106eea;
+    background-color: #ffff;
+}
+.btn__picture{
+    font-size: .7rem;
+}

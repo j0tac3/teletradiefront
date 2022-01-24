@@ -1,0 +1,74 @@
+.container{
+    max-width: 100%;
+    min-height: calc(100vh - var(--navbar-height));
+    position: relative;
+    
+    background: url('..\..\..\assets\media\img\hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.container::before{
+    content: "";
+    background: rgba(16, 110, 234, .6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.get__start{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-login input{
+    border-radius: 2rem;
+    padding: 0.8rem;
+    border: 2px solid rgba(16, 110, 234, .6);
+}
+::placeholder { 
+    color: rgb(0, 119, 255); 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-title{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.img-social{
+    width: 15%;
+    padding: 0.5rem;
+}
+.hr-title{
+    width: 90%;
+    color: lightgray;
+}
+.login-title-or{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+.enlace-text{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}

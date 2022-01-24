@@ -1,0 +1,36 @@
+.container{
+    min-height: calc(100vh - var(--navbar-height));
+}
+.form-register input{
+    border-radius: 2rem;
+    padding: 0.8rem;
+    border: 2px solid rgba(16, 110, 234, .6);
+    background-color: rgba(0, 0, 0, .02);
+}
+::placeholder { 
+    color: rgb(0, 119, 255); 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register-title{
+    z-index: 2;
+    background-color: #ffff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(0, 119, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hr-title{
+    width: 90%;
+    color: gray;
+}
+.font-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.img-social{
+    width: 15%;
+    padding: 0.5rem;
+}
